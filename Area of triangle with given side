@@ -6,7 +6,7 @@ program: write a program to read three side of triangle to calculate area.
 lab no:05
 date:28th september 2016
 */
-//hgjhjk 
+
 
 #include<stdio.h>
 #include<conio.h>

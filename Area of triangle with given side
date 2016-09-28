@@ -1,0 +1,31 @@
+/*
+student name:nikita lama
+subject:programming fndamentals
+roll no:
+program: write a program to read three side of triangle to calculate area.
+lab no:05
+date:28th september 2016
+*/
+//hgjhjk 
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+int main () {
+float a,b,c,s,A;
+
+printf("Enter first side:\n");
+scanf("%f",&a);
+printf("enter second side:\n");
+scanf("%f",&b);
+printf("enter third side:\n");
+scanf("%f",&c);
+s=(a+b+c)/2;
+printf("sum of  side:\n%f",s);
+
+A=pow( (s*(s-a)*(s-b)*(s-c)),0.5);
+printf("\nArea of side:\n%f",A);
+getch();
+}
+
